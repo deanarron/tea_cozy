@@ -20,6 +20,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 1;
+  background-color: black;
 }
 .logo {
   display: flex;
@@ -35,4 +36,29 @@ header {
 }
 .nav-links a {
   color: seashell;
+}
+/* End Header Styles */
+/* Mission Section */
+.content {
+  padding-top: 70px;
+}
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:770px;
+  width:1200px;
+  margin: 0 auto;
+  background-image: url("../images/img-mission-background.jpg");
+}
+.mission-content {
+  background-color: black;
+}
+h2 {
+  display: inline-block;
+  padding: 10px;
+}
+h4 {
+  display: inline-block;
+  padding: 10px;
 }
