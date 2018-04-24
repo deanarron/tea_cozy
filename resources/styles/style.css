@@ -34,8 +34,9 @@ header {
   display: inline-block;
   padding: 20px 10px;
 }
-.nav-links a {
-  color: seashell;
+a,
+  a:visited {
+    color: seashell;
 }
 /* End Header Styles */
 /* Mission Section */
@@ -55,10 +56,28 @@ header {
   background-color: black;
 }
 h2 {
-  display: inline-block;
   padding: 10px;
 }
 h4 {
-  display: inline-block;
   padding: 10px;
+}
+/* End Mission Styles */
+/* Store Section */
+.store-container {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+.product-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.product {
+  margin: 10px;
+}
+.product img {
+  height: 200px;
+  width: 300px;
 }
