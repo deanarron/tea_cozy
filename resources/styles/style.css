@@ -119,7 +119,7 @@ footer {
   text-align: left;
 }
 /* Media Queries */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   header {
     display: flex;
     justify-content: center;
