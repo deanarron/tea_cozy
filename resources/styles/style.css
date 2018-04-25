@@ -93,7 +93,6 @@ h4 {
 .locations-flex-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   flex-direction: row;
   margin-top: 15px;
 }
@@ -113,3 +112,15 @@ h3 {
 }
 /* End Location Styles */
 /* Contact Styles */
+#contact {
+  height: 200px;
+  width: 100%;
+  padding: 0 10px;
+}
+h5 {
+  margin: 30px;
+}
+/* Footer Styles */
+footer {
+  text-align: left;
+}
