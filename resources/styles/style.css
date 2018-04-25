@@ -118,3 +118,50 @@ h5 {
 footer {
   text-align: left;
 }
+/* Media Queries */
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 119px;
+  }
+  .logo {
+    padding-top: 10px;
+    flex-grow: 0;
+  }
+  .content {
+          padding-top: 120px;
+  }
+  .mission-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    background-position: top;
+  }
+  .store-container {
+    width: 100%;
+    height:100%;
+  }
+  .locations-container {
+    width: 100%;
+    height: 100%;
+    background-position: top;
+  }
+  .locations-flex-container {
+    flex-direction: column;
+  }
+  .location {
+    flex-basis: 200px;
+    margin-bottom: 15px;
+  }
+  .location p {
+    padding: 15px 0;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    font-size: 16px;
+  }
+}
