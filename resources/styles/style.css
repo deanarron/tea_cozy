@@ -81,3 +81,35 @@ h4 {
   height: 200px;
   width: 300px;
 }
+/* End Store Styles */
+/* Location Styles */
+.locations-container {
+  height: 500px;
+  width:1200px;
+  margin: 0 auto;
+  padding-top: 70px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+.locations-flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 15px;
+}
+h3 {
+  padding-top: 10px;
+}
+.location {
+  flex-basis: 280px;
+  background-color: black;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1;
+}
+.location p {
+  padding: 25px 0;
+  text-align: center;
+}
+/* End Location Styles */
+/* Contact Styles */
